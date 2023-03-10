@@ -1,0 +1,7 @@
+Workflow Tasks Details implementation
+
+Different workflow tasks - Multiple Authorization, Corporate Action Processing, Batch Processing.
+MA - When user1 comes in and did some changes to the CA then it creates a Workflow task named CA created for review and entry goes to the Mod_Request table and it goes
+to the Review Queue and details of that WF task goes to the WF_Task_Instance table. It contains the details like - Due Date, Executive name, Triggered by, etc..
+
+
